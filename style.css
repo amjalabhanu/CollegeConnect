@@ -1,0 +1,120 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2b3a67; /* Dark blue text */
+    background-color: #f9ecef; /* Pale pink background */
+}
+
+.background {
+    background-color: rgb(192, 191, 197);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: rgba(43, 58, 103, 0.8); /* Dark blue with transparency */
+    color: #f9ecef; /* Pale pink text */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section, .resources {
+    background-color: rgba(249, 236, 239, 0.9); /* Pale pink with transparency */
+    border-radius: 8px;
+    padding: 2em;
+    max-width: 400px;
+    width: 100%;
+    margin: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.redir{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: #2b3a67; /* Dark blue */
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+.login-section .cta-button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #2b3a67; /* Dark blue */
+    color: #f9ecef; /* Pale pink */
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1em;
+}
+.login-section .cta-button:hover {
+    background-color: #1a2749;
+}
+
+/* .login-section .cta-button {
+    width: 100%;
+    padding: 0.8em;
+    background-color: #2b3a67; /* Dark blue 
+    color: #f9ecef; /* Pale pink text 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.login-section .cta-button:hover {
+    background-color: #1a2749; /* Slightly darker blue 
+} */
+
+a {
+    color: #2b3a67;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: rgba(43, 58, 103, 0.8); /* Dark blue with transparency */
+    color: #f9ecef; /* Pale pink */
+}
+
+footer p {
+    margin: 0;
+}

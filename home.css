@@ -1,0 +1,158 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2b3a67; /* Dark blue text */
+    background-color: #f9ecef; /* Pale pink background */
+}
+
+.background {
+    background-image: url('https://via.placeholder.com/1920x1080.png?text=Background+Image'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    background-color: rgba(43, 58, 103, 0.9); /* Dark blue */
+    color: #f9ecef; /* Pale pink text */
+}
+
+nav h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #f9ecef;
+    font-weight: 600;
+}
+
+nav .nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 4em 2em;
+    background-color: rgba(249, 236, 239, 0.9); /* Pale pink */
+    margin: 1em auto;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: #2b3a67; /* Dark blue */
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 1em 0;
+    line-height: 1.6;
+}
+
+.hero .cta-button {
+    padding: 0.8em 1.5em;
+    background-color: #2b3a67; /* Dark blue */
+    color: #f9ecef; /* Pale pink */
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.hero .cta-button:hover {
+    background-color: #1a2749;
+}
+
+/* Features Section */
+.features {
+    padding: 2em;
+    background-color: rgba(249, 236, 239, 0.9); /* Pale pink */
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 1000px;
+}
+
+.features h2 {
+    text-align: center;
+    color: #2b3a67; /* Dark blue */
+    margin-bottom: 1em;
+}
+
+.feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 1em);
+    max-width: 300px;
+    text-align: center;
+}
+
+.feature-card h3 {
+    color: #2b3a67;
+    margin-bottom: 0.5em;
+}
+
+.feature-card p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/* About Section */
+.about {
+    padding: 2em;
+    background-color: rgba(43, 58, 103, 0.9); /* Dark blue */
+    color: #f9ecef; /* Pale pink */
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+.about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: rgba(43, 58, 103, 0.9); /* Dark blue */
+    color: #f9ecef; /* Pale pink */
+}
+
+footer p {
+    margin: 0;
+}

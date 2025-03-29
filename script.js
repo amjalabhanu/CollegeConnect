@@ -6,7 +6,7 @@ document.getElementById('loginForm').addEventListener('submit', function (e) {
     if (email === "" || password === "") {
         alert("Please fill in all fields.");
     } else {
-        alert("Login successful! Welcome to CollegeConnect.");
+        alert("Login successful! Welcome to EduCollab");
         // Redirect to another page or load user-specific data
         window.location.href = "dashboard.html";
     }
